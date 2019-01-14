@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Restaurant Bill Calculator</title>
+  <style type="text/css" href="styles.css"></style>
+</head>
+
+
+<body>
+<div class="container">
+  <h1>Restaurant Bill Calculator</h1>
+    <div class="tip-calculator">
+
+      <div>
+        <label for="amount">Total Bill</label>
+        <input type="number" min="0" value="" name="amount" id="amount">
+      </div>
+
+      <div>
+        <label for="people">Number of People</label>
+        <input type="number" step="1" min="1" value="" name="people" id="people">
+      </div>
+
+      <div>
+        <label for ="tip">Tip %</label>
+        <input type="number" step="1" min="0" value="" name="tip" id="tip">
+      </div>
+
+      <div id="owed" aria-live="polite"></div>
+    </div>
+</div>
+
+
+  <script scr="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

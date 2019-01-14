@@ -1,0 +1,45 @@
+html {
+    font-size: 100%;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff3e6;
+  padding: 30px;
+  position: relative;
+}
+
+h1 {
+  font-weight: 800;
+  text-align: center;
+  color: #ff8000;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20em;
+  width: 50%;
+}
+
+.tip-calculator {
+  margin: 20px;
+}
+input[type=number] {
+  display: block;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px 12px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+
+#owed {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  color: #ff8000;
+}
